@@ -15,6 +15,8 @@
 		18E40DC31BF9EED70049125D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E40DC11BF9EED70049125D /* LaunchScreen.storyboard */; };
 		18E40DCE1BF9EED70049125D /* ballAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E40DCD1BF9EED70049125D /* ballAnimationTests.m */; };
 		18E40DD91BF9EED70049125D /* ballAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E40DD81BF9EED70049125D /* ballAnimationUITests.m */; };
+		18E40DE81BF9EF180049125D /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E40DE71BF9EF180049125D /* Ball.m */; settings = {ASSET_TAGS = (); }; };
+		18F58DC31BFA05C4003AB261 /* Snake.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F58DC21BFA05C4003AB261 /* Snake.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		18E40DD41BF9EED70049125D /* ballAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ballAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E40DD81BF9EED70049125D /* ballAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ballAnimationUITests.m; sourceTree = "<group>"; };
 		18E40DDA1BF9EED70049125D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E40DE61BF9EF180049125D /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		18E40DE71BF9EF180049125D /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		18F58DC11BFA05C4003AB261 /* Snake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snake.h; sourceTree = "<group>"; };
+		18F58DC21BFA05C4003AB261 /* Snake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snake.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				18E40DB71BF9EED70049125D /* AppDelegate.m */,
 				18E40DB91BF9EED70049125D /* ViewController.h */,
 				18E40DBA1BF9EED70049125D /* ViewController.m */,
+				18E40DE61BF9EF180049125D /* Ball.h */,
+				18E40DE71BF9EF180049125D /* Ball.m */,
+				18F58DC11BFA05C4003AB261 /* Snake.h */,
+				18F58DC21BFA05C4003AB261 /* Snake.m */,
 				18E40DBC1BF9EED70049125D /* Main.storyboard */,
 				18E40DBF1BF9EED70049125D /* Assets.xcassets */,
 				18E40DC11BF9EED70049125D /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F58DC31BFA05C4003AB261 /* Snake.m in Sources */,
+				18E40DE81BF9EF180049125D /* Ball.m in Sources */,
 				18E40DBB1BF9EED70049125D /* ViewController.m in Sources */,
 				18E40DB81BF9EED70049125D /* AppDelegate.m in Sources */,
 				18E40DB51BF9EED70049125D /* main.m in Sources */,
@@ -417,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ballAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uestc.deu.fkx.ballAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ballAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uestc.deu.fkx.ballAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +515,7 @@
 				18E40DDF1BF9EED70049125D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E40DE01BF9EED70049125D /* Build configuration list for PBXNativeTarget "ballAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +524,7 @@
 				18E40DE21BF9EED70049125D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E40DE31BF9EED70049125D /* Build configuration list for PBXNativeTarget "ballAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +533,7 @@
 				18E40DE51BF9EED70049125D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
